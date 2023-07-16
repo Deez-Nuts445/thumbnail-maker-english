@@ -41,7 +41,7 @@
   <Form on:submit={handleSubmit}>
     <FormGroup>
       <Checkbox
-        labelText="Obtener listas del servidor"
+        labelText="Get lists from server"
         bind:checked={downloadServerSide}
       />
       {#if downloadServerSide}
@@ -51,7 +51,7 @@
     <InputForm selected={selected % 2} is2023={selected >= 2} />
     <IconForm is2023={selected >= 2} />
     <FormGroup>
-      <Button type="submit">Descargar</Button>
+      <Button type="submit">Discharge</Button>
     </FormGroup>
   </Form>
 </main>
